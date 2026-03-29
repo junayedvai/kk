@@ -1,0 +1,5 @@
+
+import Link from "next/link";
+export default function ProductCard({ product }){
+  return <article className="product-card"><Link href={`/products/${product.slug}`} className="product-thumb-link"><div className="product-thumb"><img src={product.imageUrl} alt={product.title} /><span className="pill">{product.region}</span>{product.trending ? <span className="pill dark right">Trending</span> : null}</div></Link><div className="product-body"><div className="product-kicker">{product.category}</div><Link href={`/products/${product.slug}`} className="product-title">{product.title}</Link><p className="product-copy">{product.shortDescription}</p><div className="seller-line"><span>{product.seller?.name}</span><span>{product.seller?.rating}% rating</span><span>{product.seller?.soldCount?.toLocaleString()} sold</span></div><div className="product-bottom"><div>{product.listPrice ? <div className="list-price">${product.listPrice.toFixed(2)}</div> : null}<div className="price">${product.price.toFixed(2)}</div></div><Link href={`/products/${product.slug}`} className="buy-btn">View</Link></div></div></article>;
+}

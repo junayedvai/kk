@@ -1,0 +1,47 @@
+{
+  "brand": "GlobalDock",
+  "hero": {
+    "eyebrow": "Curated digital marketplace",
+    "title": "Premium digital products, beautifully presented for fast global shopping.",
+    "subtitle": "Manual product import, trusted seller metadata, instant search, clean white gradients, and a premium storefront built for modern buyers.",
+    "searchPlaceholder": "Search ChatGPT, Netflix, Canva, YouTube...",
+    "quickSearches": [
+      "chatgpt",
+      "netflix",
+      "canva",
+      "youtube premium"
+    ],
+    "stats": [
+      {
+        "label": "Listings",
+        "value": "2.4K+"
+      },
+      {
+        "label": "Trusted sellers",
+        "value": "340+"
+      },
+      {
+        "label": "Avg. delivery",
+        "value": "12 min"
+      }
+    ]
+  },
+  "sections": {
+    "announcement": "Fresh white-gradient marketplace UI with manual import workflow.",
+    "featureTitle": "Why buyers like this storefront",
+    "featureCards": [
+      {
+        "title": "Fast discovery",
+        "text": "Smart typo-aware search and clear product filtering."
+      },
+      {
+        "title": "Curated quality",
+        "text": "Seller details, reviews, and performance shown in each listing."
+      },
+      {
+        "title": "Admin control",
+        "text": "Import products, add image links, edit prices, and publish updates."
+      }
+    ]
+  }
+}

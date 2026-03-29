@@ -1,0 +1,6 @@
+
+import ProductCard from "@/components/ProductCard";
+import { getProducts } from "@/lib/data-store";
+import { searchProducts } from "@/lib/search";
+export default function SearchPage({ searchParams }){ const q=searchParams?.q || ""; const result=q ? searchProducts(getProducts(), q) : { query:"", interpretedAs:"", results:[] };
+ return <main className="section"><div className="container"><div className="section-head compact"><div><div className="eyebrow">Search</div><h1>Find products instantly</h1></div></div><form className="search-surface" action="/search"><input name="q" defaultValue={q} placeholder="Search products..." /><button type="submit">Search</button></form>{q ? <div className="search-meta card-surface">Search: <strong>{q}</strong>{result.interpretedAs ? <span>Interpreted as: <strong>{result.interpretedAs}</strong></span> : null}<span>{result.results.length} result(s)</span></div> : null}{q && result.results.length===0 ? <div className="empty-state card-surface"><h3>No results found</h3><p>Try a shorter keyword or a related product name.</p></div> : null}<div className="product-grid">{result.results.map(product=><ProductCard key={product.id} product={product} />)}</div></div></main>; }

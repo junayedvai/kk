@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p1",
+    "slug": "chatgpt-plus-access",
+    "title": "ChatGPT Plus Access",
+    "category": "AI Tools",
+    "price": 19.99,
+    "listPrice": 24.99,
+    "region": "Global",
+    "stock": 120,
+    "featured": true,
+    "trending": true,
+    "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Fast access package for AI productivity buyers.",
+    "description": "Premium AI access listing with manual verification, polished delivery notes, and a clean digital product presentation.",
+    "tags": [
+      "chatgpt",
+      "ai",
+      "subscription",
+      "openai"
+    ],
+    "aliases": [
+      "chtgpt",
+      "chat gpt",
+      "cgpt"
+    ],
+    "badges": [
+      "Best seller",
+      "Fast delivery"
+    ],
+    "seller": {
+      "name": "Apex Digital",
+      "rating": 99.1,
+      "reviews": 4821,
+      "soldCount": 18320,
+      "country": "Singapore",
+      "deliveryTime": "5-15 min",
+      "reviewNote": "Reliable response time and consistent delivery.",
+      "sourceSeller": "Apex Digital"
+    }
+  },
+  {
+    "id": "p2",
+    "slug": "canva-pro-team-access",
+    "title": "Canva Pro Team Access",
+    "category": "Design",
+    "price": 7.49,
+    "listPrice": 11.0,
+    "region": "Global",
+    "stock": 88,
+    "featured": true,
+    "trending": false,
+    "imageUrl": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Design toolkit subscription with quick setup.",
+    "description": "A polished listing for design subscriptions with team-oriented access and clear manual import controls.",
+    "tags": [
+      "canva",
+      "design",
+      "subscription"
+    ],
+    "aliases": [
+      "canvaa",
+      "cnava"
+    ],
+    "badges": [
+      "Editor pick"
+    ],
+    "seller": {
+      "name": "Pixel Trust",
+      "rating": 98.8,
+      "reviews": 2180,
+      "soldCount": 9410,
+      "country": "Malaysia",
+      "deliveryTime": "10-20 min",
+      "reviewNote": "Smooth onboarding for new buyers.",
+      "sourceSeller": "Pixel Trust"
+    }
+  },
+  {
+    "id": "p3",
+    "slug": "netflix-premium-screen",
+    "title": "Netflix Premium Screen",
+    "category": "Streaming",
+    "price": 4.99,
+    "listPrice": 6.5,
+    "region": "Global",
+    "stock": 64,
+    "featured": false,
+    "trending": true,
+    "imageUrl": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Affordable streaming access with fast replacement policy.",
+    "description": "A streaming product card with strong seller profile details and a simple order-oriented layout.",
+    "tags": [
+      "netflix",
+      "streaming",
+      "premium"
+    ],
+    "aliases": [
+      "netflx",
+      "netfli"
+    ],
+    "badges": [
+      "Hot now"
+    ],
+    "seller": {
+      "name": "Stream Lane",
+      "rating": 98.4,
+      "reviews": 1290,
+      "soldCount": 11110,
+      "country": "India",
+      "deliveryTime": "15-30 min",
+      "reviewNote": "Popular among repeat buyers.",
+      "sourceSeller": "Stream Lane"
+    }
+  },
+  {
+    "id": "p4",
+    "slug": "youtube-premium-1-month",
+    "title": "YouTube Premium 1 Month",
+    "category": "Streaming",
+    "price": 3.99,
+    "listPrice": 5.0,
+    "region": "Global",
+    "stock": 72,
+    "featured": false,
+    "trending": false,
+    "imageUrl": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Ad-free streaming plan with smooth onboarding.",
+    "description": "A clean premium product page example for digital subscriptions and entertainment listings.",
+    "tags": [
+      "youtube",
+      "premium",
+      "streaming"
+    ],
+    "aliases": [
+      "yt premium"
+    ],
+    "badges": [
+      "Budget deal"
+    ],
+    "seller": {
+      "name": "Prime Access",
+      "rating": 99.3,
+      "reviews": 3320,
+      "soldCount": 15240,
+      "country": "UAE",
+      "deliveryTime": "5-20 min",
+      "reviewNote": "Excellent satisfaction rate.",
+      "sourceSeller": "Prime Access"
+    }
+  }
+]
